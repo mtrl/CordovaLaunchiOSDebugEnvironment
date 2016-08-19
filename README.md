@@ -10,7 +10,15 @@ You probably want to set up the repo as a submodule of your existing Cordova rep
 
 Run it with 
 
-`./CordovaLaunchiOSDebugEnvironment/debug-in-simulator.sh`
+`./CordovaLaunchiOSDebugEnvironment/simulator-debug.sh`
+
+There is also a script for running the app on a device but this needs some configuration
+
+Open the `OpeniOSDevelopmentEnvironmentDevice` app in Script Editor and change the name of the Device menu item (Currently Sally's iPad) on the last line to the name of the device you are using.
+
+Then run with
+
+`./CordovaLaunchiOSDebugEnvironment/device-debug.sh`
 
 You may get an error that:
 
