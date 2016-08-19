@@ -4,11 +4,13 @@ Build cordova app, Launch iOS simulator with the app and run the safari debugger
 
 ## Set up
 
-Clone this repo into a `tools` directory in the root of your cordova application.
+You probably want to set up the repo as a submodule of your existing Cordova repo with
+
+git submodule add https://github.com/mtrl/CordovaLaunchiOSDebugEnvironment
 
 Run it with 
 
-`./tools/debug-in-simulator.sh`
+`./CordovaLaunchiOSDebugEnvironment/debug-in-simulator.sh`
 
 You may get an error that:
 
